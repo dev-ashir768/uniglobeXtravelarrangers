@@ -96,7 +96,7 @@ nav ul > li > ul > li > ul > li:hover > a{background: #21b5b0;color: #fff;}
 .overlay{background:rgba(0,0,0,0.4);opacity:0;visibility:hidden;width:100%;height:100%;position:fixed;left:0;top:0;right:0;z-index:2}
 .nav-icon{width:40px;height:45px;position:relative;margin:0;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-o-transition:.5s ease-in-out;transition:.5s ease-in-out;cursor:pointer;display:none;}
 .logowrapper{float:left;}
-.logowrapper img {height:36px;}
+.logowrapper img {height: 25px;}
 .app {
 	color: #fff;
 	border-bottom: 1px solid #fff;
@@ -693,7 +693,7 @@ input[type=radio] {
 
 .logotext {
 	color: #3AB1A7;
-	font-size: 1.35em;
+font-size: 0.9em;
 	letter-spacing: -0.5px;
 	font-family: "Nunito";
 }
@@ -1459,4 +1459,8 @@ iframe {
 	font-weight: 500 !important;
 	font-size: 17px !important;
 	color: #151E47;	
+}
+
+.h-52 {
+    height: 52px !important;
 }

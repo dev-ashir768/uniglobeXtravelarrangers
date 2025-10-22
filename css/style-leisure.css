@@ -511,7 +511,7 @@ nav ul>li>ul>li>ul>li:hover>a {
 }
 
 .logowrapper img {
-    height: 36px;
+    height: 25px;
 }
 
 .app {
@@ -2420,13 +2420,17 @@ input[type=radio] {
 
 .logotext {
     color: #3AB1A7;
-    font-size: 1.35em;
+  font-size: 0.9em;
     letter-spacing: -0.5px;
     font-family: "Nunito";
 }
 
 .logo {
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .btgrid .content {
@@ -3214,4 +3218,12 @@ iframe {
     font-weight: 500 !important;
     font-size: 17px !important;
     color: #151E47;
+}
+
+.h-52 {
+    height: 52px !important;
+}
+
+.mr-10 {
+  margin-right: 10px;
 }

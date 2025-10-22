@@ -208,7 +208,7 @@
 	.breadcrumb_container{padding: 30px 30px 0px 30px;}
 	.footer_social {padding-left: 30px;}
 	.footer_social img{width:30px;height:30px;}
-	.logowrapper img {height: 34px;}
+	.logowrapper img {height: 25px;}
 	.motif-box-bg {
 		background-size: 275px;
 	}
@@ -390,4 +390,13 @@
 		-webkit-box-shadow: 5px 7px 6px -2px rgb(0 0 0 / 75%);
 		box-shadow: 5px 7px 6px -2px rgb(0 0 0 / 75%);
 	}
+}
+
+
+.h-52 {
+    height: 52px !important;
+}
+
+.mr-10 {
+  margin-right: 10px;
 }
