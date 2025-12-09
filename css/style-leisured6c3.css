@@ -297,27 +297,27 @@ nav > ul > li:last-child {
 }
 nav > ul > li > a {
   font-size: 0.95em;
-  color: #151e47;
+  color: #006fce;
   margin: 0;
   text-decoration: none;
   padding-bottom: 37px;
 }
 nav ul > li > a:hover {
-  color: #3ab1a7;
+  color: #ec2e3c;
 }
 .contact-button {
   font-family: "Nunito";
   font-weight: 700;
-  background-color: #151e47;
+  background-color: #006fce;
   padding: 6px 24px;
   position: relative;
   top: -8px;
-  border: 2px solid #151e47;
+  border: 2px solid #006fce;
   border-radius: 20px;
   color: #fff;
 }
 .contactButton input {
-  background-color: #151e47;
+  background-color: #006fce;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
@@ -325,8 +325,8 @@ nav ul > li > a:hover {
   border: none;
 }
 nav ul > li > a:hover .contact-button {
-  background-color: #3ab1a7;
-  border: 2px solid #3ab1a7;
+  background-color: #ec2e3c;
+  border: 2px solid #ec2e3c;
 }
 nav ul {
   list-style: none;
@@ -339,14 +339,14 @@ nav ul > li > ul {
   display: none;
   width: 100%;
   min-width: 262px;
-  background-color: #151e47;
+  background-color: #006fce;
 }
 nav ul > li > ul > li {
   display: block;
   padding: 0;
   margin: 0;
   width: 100%;
-  background-color: #151e47;
+  background-color: #006fce;
   position: relative;
 }
 nav ul > li > ul > li > a {
@@ -360,7 +360,7 @@ nav ul > li > ul > li > a {
 }
 nav ul > li > ul > li > a > div {
   padding: 13px 0 15px 0;
-  border-bottom: 1px solid #3ab1a7;
+  border-bottom: 1px solid #ec2e3c;
   margin-left: 16px;
   margin-right: 39px;
 }
@@ -371,7 +371,7 @@ nav ul > li > ul > li > a > div > img {
   padding: 10px;
 }
 nav ul > li > ul > li:hover > a {
-  background: #3ab1a7;
+  background: #ec2e3c;
   color: #fff;
 }
 nav ul > li > ul > li > ul {
@@ -446,8 +446,8 @@ nav ul > li > ul > li > ul > li:hover > a {
   text-transform: capitalize;
 }
 .app:hover {
-  color: #151e47;
-  border-bottom: 1px solid #151e47;
+  color: #006fce;
+  border-bottom: 1px solid #006fce;
 }
 /* ------------------ BANNER HERE -------------------*/
 .slider {
@@ -460,7 +460,7 @@ nav ul > li > ul > li > ul > li:hover > a {
   top: 0;
   left: 0;
   background: transparent
-    linear-gradient(180deg, #ffffff00 0%, #2d375e80 87%, #151e47 100%) 0% 0%
+    linear-gradient(180deg, #ffffff00 0%, #2d375e80 87%, #006fce 100%) 0% 0%
     no-repeat padding-box;
   opacity: 1;
   z-index: 0;
@@ -494,7 +494,7 @@ nav ul > li > ul > li > ul > li:hover > a {
   min-height: 215px;
   padding: 53px 35px 35px 45px;
   position: relative;
-  color: #151e47;
+  color: #006fce;
   margin-bottom: 80px;
   border-radius: 20px;
   text-align: center;
@@ -527,7 +527,7 @@ nav ul > li > ul > li > ul > li:hover > a {
   text-decoration: none;
   font-weight: 700;
   display: block;
-  background: #151e47;
+  background: #006fce;
   width: 182px;
   text-align: center;
   color: #fff;
@@ -616,7 +616,7 @@ dl {
 }
 .brief_rt h2 {
   font-size: 30px;
-  color: #151e47;
+  color: #006fce;
   padding: 0 0 30px 0;
   margin: 0;
   line-height: 58px;
@@ -626,7 +626,7 @@ dl {
 }
 .brief_rt p {
   font-size: 1.15em;
-  color: #151e47;
+  color: #006fce;
   padding: 0 0 60px 0;
   margin: 0;
   line-height: 29px;
@@ -634,7 +634,7 @@ dl {
 .brief_rt a {
   font-family: "Nunito";
   font-weight: 700;
-  background-color: #151e47;
+  background-color: #006fce;
   font-size: 1.15em;
   color: #fff;
   padding: 10px 45px;
@@ -642,12 +642,12 @@ dl {
   line-height: 20px;
   text-decoration: none;
   display: inline-block;
-  border: 2px solid #151e47;
+  border: 2px solid #006fce;
   border-radius: 30px;
 }
 .brief_rt a:hover {
-  background-color: #3ab1a7;
-  border: 2px solid #3ab1a7;
+  background-color: #ec2e3c;
+  border: 2px solid #ec2e3c;
 }
 .brief-theme-1 {
   background: #00b0ab;
@@ -666,7 +666,7 @@ dl {
 }
 .trips h2 {
   font-size: 32pt;
-  color: #151e47;
+  color: #006fce;
   font-weight: 800;
   text-decoration: underline;
   text-decoration-color: #efca8b;
@@ -932,7 +932,7 @@ dl {
 .blog_posts h2 {
   font-size: 2.7em;
   font-weight: 300;
-  color: #3ab1a7;
+  color: #ec2e3c;
   padding: 0;
   margin: 0;
 }
@@ -1193,7 +1193,7 @@ footer {
   margin: 0;
   padding: 80px 0 22px 0;
   clear: both;
-  background-color: #151e47;
+  background-color: #006fce;
 }
 footer a {
   color: #fff;
@@ -1307,7 +1307,7 @@ footer a {
 .slide1 h4 {
   font-size: 2.5em;
   font-weight: 400;
-  color: #3ab1a7;
+  color: #ec2e3c;
   padding-bottom: 7px;
   margin: 0;
 }
@@ -1587,7 +1587,7 @@ footer a {
   font-weight: 600;
 }
 .page_title_divider {
-  border-bottom: 1px solid #151e47;
+  border-bottom: 1px solid #006fce;
   width: 80px;
   margin-bottom: 40px;
 }
@@ -1649,7 +1649,7 @@ footer a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border-bottom: 1px solid #3ab1a7;
+  border-bottom: 1px solid #ec2e3c;
 }
 .quicklinks:hover .quicklinks_overlay {
   background: rgba(0, 176, 171, 0.25);
@@ -1676,7 +1676,7 @@ footer a {
   background: #97d6d6;
 }
 .index .gallery a .overlay1 {
-  background: transparent linear-gradient(180deg, #151e4724 0%, #04060e 100%) 0%
+  background: transparent linear-gradient(180deg, #006fce24 0%, #04060e 100%) 0%
     0%;
 }
 input[type="text"],
@@ -1785,7 +1785,7 @@ select {
   cursor: pointer;
 }
 .underline a:after {
-  background: none repeat scroll 0 0 #3ab1a7;
+  background: none repeat scroll 0 0 #ec2e3c;
   content: "";
   height: 2px;
   left: 0;
@@ -1853,7 +1853,7 @@ select {
 }
 .form-contact input[type="text"] {
   border: none;
-  border-bottom: 1px solid #151e47;
+  border-bottom: 1px solid #006fce;
   width: 100%;
   height: 50px;
   font-weight: 300;
@@ -1864,7 +1864,7 @@ select {
 .form-contact textarea {
   width: 100%;
   border: none;
-  border: 1px solid #151e47;
+  border: 1px solid #006fce;
   margin-bottom: 24px;
   border-radius: 0;
   padding: 16px 20px;
@@ -1875,8 +1875,8 @@ select {
 .form-contact button {
   height: 50px;
   line-height: 48px;
-  border: 2px solid #3ab1a7;
-  background: #3ab1a7;
+  border: 2px solid #ec2e3c;
+  background: #ec2e3c;
   color: #fff;
   width: 100%;
   font-size: 1.5em;
@@ -2033,7 +2033,7 @@ input[type="radio"] {
 
 .hl-title h4 {
   font-size: 30px;
-  color: #151e47;
+  color: #006fce;
   padding: 0 0 30px 0;
   margin: 0;
   line-height: 58px;
@@ -2048,7 +2048,7 @@ input[type="radio"] {
 
 .hl-content {
   font-size: 1.15em;
-  color: #151e47;
+  color: #006fce;
   padding: 0 0 20px 0;
   margin: 0;
   line-height: 29px;
@@ -2057,7 +2057,7 @@ input[type="radio"] {
 .hl-link {
   font-family: "Nunito";
   font-weight: 700;
-  background-color: #151e47;
+  background-color: #006fce;
   font-size: 1.15em;
   margin-top: 40px;
   color: #fff;
@@ -2065,15 +2065,15 @@ input[type="radio"] {
   max-width: 182px;
   text-align: center;
   text-transform: capitalize;
-  border: 2px solid #151e47;
+  border: 2px solid #006fce;
   border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .hl-link:hover {
-  background-color: #3ab1a7;
-  border: 2px solid #3ab1a7;
+  background-color: #ec2e3c;
+  border: 2px solid #ec2e3c;
 }
 
 .hl-bottom {
@@ -2128,7 +2128,7 @@ input[type="radio"] {
 }
 
 .logotext {
-  color: #3ab1a7;
+  color: #ec2e3c;
   font-size: 0.9em;
   letter-spacing: -0.5px;
   font-family: "Nunito";
@@ -2203,16 +2203,16 @@ iframe {
 }
 
 .get-in-touch {
-  color: #3ab1a7;
+  color: #ec2e3c;
   background: #ffffff;
   width: 140px;
   border-radius: 0px;
   font-weight: bold;
-  border: 1px solid #3ab1a7;
+  border: 1px solid #ec2e3c;
 }
 
 .get-in-touch:hover {
-  background-color: #3ab1a7;
+  background-color: #ec2e3c;
   color: white;
 }
 
@@ -2321,7 +2321,7 @@ iframe {
   height: 50px;
   box-shadow: none;
   border: none;
-  border-bottom: 1px solid #151e47;
+  border-bottom: 1px solid #006fce;
   border-radius: 0;
   padding: 6px 0;
   font-weight: 300;
@@ -2359,7 +2359,7 @@ iframe {
   left: 0;
   height: 20px;
   width: 20px;
-  border: 1px solid #151e47;
+  border: 1px solid #006fce;
 }
 
 /* On mouse-over, add a grey background color */
@@ -2514,7 +2514,7 @@ iframe {
 
 .breadcrumbs a {
   text-decoration: none;
-  color: #151e47;
+  color: #006fce;
   font-weight: 600;
 }
 
@@ -2535,7 +2535,7 @@ iframe {
   margin-top: 40px;
   font-weight: 300;
   color: #fff;
-  background-color: #151e47;
+  background-color: #006fce;
   padding: 6px 0 7px;
   max-width: 182px;
   text-align: center;
@@ -2666,8 +2666,8 @@ iframe {
 
 .blog-link span {
   font-size: 1em;
-  color: #3ab1a7;
-  border: 2px solid #3ab1a7;
+  color: #ec2e3c;
+  border: 2px solid #ec2e3c;
   padding: 4px 30px;
   text-align: center;
   text-transform: capitalize;
@@ -2826,6 +2826,7 @@ iframe {
 
 .product-plug-img img {
   width: 100%;
+       border-radius: 25px 25px 0 0;
 }
 
 .product-plug-desc {
@@ -2838,6 +2839,7 @@ iframe {
 
 .product-plug-desc a {
   font-size: 20px;
+      font-weight: 700;
 }
 
 .product-plug-desc p {
@@ -2862,7 +2864,7 @@ iframe {
   font-family: "Nunito" !important;
   font-weight: 800 !important;
   font-size: 32pt !important;
-  color: #151e47 !important;
+  color: #006fce !important;
 }
 
 .products-divider {
@@ -2879,7 +2881,7 @@ iframe {
   font-family: "Nunito";
   font-weight: 800;
   font-size: 32pt;
-  color: #151e47;
+  color: #006fce;
 }
 
 .contactBoxWrapper {
@@ -2887,7 +2889,7 @@ iframe {
 }
 
 .askButton {
-  background: #151e47;
+  background: #006fce;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
@@ -2897,21 +2899,20 @@ iframe {
   text-transform: uppercase;
   font-weight: 500 !important;
   font-size: 17px !important;
-  color: #151e47;
+  color: #006fce;
 }
 
 .h-52 {
   height: 52px !important;
 }
 
-
 /* Premium Footer Styles */
 .premium-footer {
-  background-color: #151e47;
+  background-color: #006fce;
   color: #ffffff;
   padding: 60px 0 0;
   font-family: "Nunito", sans-serif;
-  border-top: 5px solid #3ab1a7;
+  border-top: 5px solid #ec2e3c;
   margin-top: 0;
 }
 
@@ -2922,7 +2923,7 @@ iframe {
 }
 
 .premium-footer .footer-heading {
-  color: #3ab1a7;
+  color: #ec2e3c;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 25px;
@@ -2976,7 +2977,7 @@ iframe {
 }
 
 .premium-footer .footer-social a:hover {
-  background-color: #3ab1a7;
+  background-color: #ec2e3c;
   transform: translateY(-3px);
 }
 
@@ -3006,7 +3007,7 @@ iframe {
 }
 
 .premium-footer .footer-links a:hover {
-  color: #3ab1a7;
+  color: #ec2e3c;
   padding-left: 5px;
 }
 
@@ -3031,7 +3032,7 @@ iframe {
 }
 
 .premium-footer .footer-contact-list a:hover {
-  color: #3ab1a7;
+  color: #ec2e3c;
 }
 
 .premium-footer .footer-contact-list strong {
@@ -3046,8 +3047,8 @@ iframe {
 }
 
 .premium-footer .btn-newsletter {
-  background-color: #3ab1a7;
-  border-color: #3ab1a7;
+  background-color: #ec2e3c;
+  border-color: #ec2e3c;
   color: #ffffff;
   font-weight: 700;
   border-radius: 25px;
@@ -3078,4 +3079,13 @@ iframe {
   color: #9ca3af;
   font-size: 13px;
   margin: 0;
+}
+
+.view-more-btn{
+    font-weight: 700;
+    background-color: #006fce;
+    padding: 6px 24px;
+    border: 2px solid #006fce;
+    border-radius: 20px;
+    color: #fff !important;
 }

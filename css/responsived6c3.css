@@ -102,7 +102,7 @@
     -o-transition: 0.3s all ease-in-out;
     -webkit-transition: 0.3s all ease-in-out;
     z-index: 3;
-    background-color: #151e47;
+    background-color: #006fce;
     margin-top: 120px;
   }
   .open .side_bar {
@@ -384,7 +384,7 @@
     padding-right: 0;
   }
   .brief_lft img {
-    box-shadow: 8px 7px #3ab1a7;
+    box-shadow: 8px 7px #ec2e3c;
   }
   .brief_lft,
   .parent_home .brief_lft {
@@ -759,7 +759,7 @@
     width: 100%;
   }
   .hl-image-box img {
-    box-shadow: 8px 6px #3ab1a7;
+    box-shadow: 8px 6px #ec2e3c;
   }
   .hl-image-box {
     margin-bottom: 35px;
@@ -972,14 +972,13 @@
   margin-right: 10px;
 }
 
-
 /* Premium Footer Styles */
 .premium-footer {
-  background-color: #151e47;
+  background-color: #006fce;
   color: #ffffff;
   padding: 60px 0 0;
   font-family: "Nunito", sans-serif;
-  border-top: 5px solid #3ab1a7;
+  border-top: 5px solid #ec2e3c;
   margin-top: 0;
 }
 
@@ -990,7 +989,7 @@
 }
 
 .premium-footer .footer-heading {
-  color: #3ab1a7;
+  color: #ec2e3c;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 25px;
@@ -1044,7 +1043,7 @@
 }
 
 .premium-footer .footer-social a:hover {
-  background-color: #3ab1a7;
+  background-color: #ec2e3c;
   transform: translateY(-3px);
 }
 
@@ -1074,7 +1073,7 @@
 }
 
 .premium-footer .footer-links a:hover {
-  color: #3ab1a7;
+  color: #ec2e3c;
   padding-left: 5px;
 }
 
@@ -1099,7 +1098,7 @@
 }
 
 .premium-footer .footer-contact-list a:hover {
-  color: #3ab1a7;
+  color: #ec2e3c;
 }
 
 .premium-footer .footer-contact-list strong {
@@ -1114,8 +1113,8 @@
 }
 
 .premium-footer .btn-newsletter {
-  background-color: #3ab1a7;
-  border-color: #3ab1a7;
+  background-color: #ec2e3c;
+  border-color: #ec2e3c;
   color: #ffffff;
   font-weight: 700;
   border-radius: 25px;
