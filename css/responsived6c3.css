@@ -384,7 +384,7 @@
     padding-right: 0;
   }
   .brief_lft img {
-    box-shadow: 8px 7px #ec2e3c;
+    box-shadow: 8px 7px #00175b;
   }
   .brief_lft,
   .parent_home .brief_lft {
@@ -759,7 +759,7 @@
     width: 100%;
   }
   .hl-image-box img {
-    box-shadow: 8px 6px #ec2e3c;
+    box-shadow: 8px 6px #00175b;
   }
   .hl-image-box {
     margin-bottom: 35px;
@@ -978,7 +978,7 @@
   color: #ffffff;
   padding: 60px 0 0;
   font-family: "Nunito", sans-serif;
-  border-top: 5px solid #ec2e3c;
+  border-top: 5px solid #00175b;
   margin-top: 0;
 }
 
@@ -989,7 +989,7 @@
 }
 
 .premium-footer .footer-heading {
-  color: #ec2e3c;
+  color: #00175b;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 25px;
@@ -1043,7 +1043,7 @@
 }
 
 .premium-footer .footer-social a:hover {
-  background-color: #ec2e3c;
+  background-color: #00175b;
   transform: translateY(-3px);
 }
 
@@ -1073,7 +1073,7 @@
 }
 
 .premium-footer .footer-links a:hover {
-  color: #ec2e3c;
+  color: #00175b;
   padding-left: 5px;
 }
 
@@ -1098,7 +1098,7 @@
 }
 
 .premium-footer .footer-contact-list a:hover {
-  color: #ec2e3c;
+  color: #00175b;
 }
 
 .premium-footer .footer-contact-list strong {
@@ -1113,8 +1113,8 @@
 }
 
 .premium-footer .btn-newsletter {
-  background-color: #ec2e3c;
-  border-color: #ec2e3c;
+  background-color: #00175b;
+  border-color: #00175b;
   color: #ffffff;
   font-weight: 700;
   border-radius: 25px;

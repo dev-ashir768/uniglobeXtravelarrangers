@@ -345,15 +345,15 @@ nav > ul > li > a {
 }
 
 nav ul > li > a:hover {
-  color: #ec2e3c;
+  color: #00175b;
 }
 
 .contact-button {
-  background-color: #ec2e3c;
+  background-color: #00175b;
   padding: 6px 24px;
   position: relative;
   top: -8px;
-  border: 2px solid #ec2e3c;
+  border: 2px solid #00175b;
 }
 
 .contactButton input {
@@ -406,7 +406,7 @@ nav ul > li > ul > li > a {
 
 nav ul > li > ul > li > a > div {
   padding: 13px 0 15px 0;
-  border-bottom: 1px solid #ec2e3c;
+  border-bottom: 1px solid #00175b;
   margin-left: 16px;
   margin-right: 39px;
 }
@@ -419,7 +419,7 @@ nav ul > li > ul > li > a > div > img {
 }
 
 nav ul > li > ul > li:hover > a {
-  background: #ec2e3c;
+  background: #00175b;
   color: #fff;
 }
 
@@ -588,7 +588,7 @@ nav ul > li > ul > li > ul > li:hover > a {
   text-decoration: none;
   font-weight: 400;
   display: block;
-  background: #ec2e3c;
+  background: #00175b;
   width: 182px;
   text-align: center;
   color: #fff;
@@ -681,13 +681,13 @@ ol {
 }
 
 .brief_lft img {
-  box-shadow: 17px 21px #ec2e3c;
+  box-shadow: 17px 21px #00175b;
   width: 100%;
 }
 
 .brief_rt h2 {
   font-size: 2.5em;
-  color: #ec2e3c;
+  color: #00175b;
   padding: 0 0 30px 0;
   margin: 0;
   line-height: 58px;
@@ -703,7 +703,7 @@ ol {
 }
 
 .brief_rt a {
-  background-color: #ec2e3c;
+  background-color: #00175b;
   font-size: 1.15em;
   color: #fff;
   padding: 10px 45px;
@@ -741,7 +741,7 @@ ol {
 .trips h2 {
   font-size: 2.7em;
   font-weight: 300;
-  color: #ec2e3c;
+  color: #00175b;
   padding: 0;
   margin: 0;
   letter-spacing: 1px;
@@ -1042,7 +1042,7 @@ ol {
 .blog_posts h2 {
   font-size: 2.7em;
   font-weight: 300;
-  color: #ec2e3c;
+  color: #00175b;
   padding: 0;
   margin: 0;
 }
@@ -1471,7 +1471,7 @@ footer a {
 .slide1 h4 {
   font-size: 2.5em;
   font-weight: 400;
-  color: #ec2e3c;
+  color: #00175b;
   padding-bottom: 7px;
   margin: 0;
 }
@@ -1853,7 +1853,7 @@ footer a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border-bottom: 1px solid #ec2e3c;
+  border-bottom: 1px solid #00175b;
 }
 
 .quicklinks:hover .quicklinks_overlay {
@@ -2008,7 +2008,7 @@ textarea {
 }
 
 .underline a:after {
-  background: none repeat scroll 0 0 #ec2e3c;
+  background: none repeat scroll 0 0 #00175b;
   content: "";
   height: 2px;
   left: 0;
@@ -2106,8 +2106,8 @@ textarea {
 .form-contact button {
   height: 50px;
   line-height: 48px;
-  border: 2px solid #ec2e3c;
-  background: #ec2e3c;
+  border: 2px solid #00175b;
+  background: #00175b;
   color: #fff;
   width: 100%;
   font-size: 1.5em;
@@ -2267,7 +2267,7 @@ input[type="radio"] {
 }
 
 .hl-image-box img {
-  box-shadow: 16px 12px #ec2e3c;
+  box-shadow: 16px 12px #00175b;
   width: 100%;
 }
 
@@ -2275,7 +2275,7 @@ input[type="radio"] {
   font-family: Nunito, sans-serif;
   font-size: 2.2em;
   font-weight: 300;
-  color: #ec2e3c;
+  color: #00175b;
   margin-top: 8px;
   margin-bottom: 30px;
 }
@@ -2297,13 +2297,13 @@ input[type="radio"] {
   margin-top: 40px;
   font-weight: 300;
   color: #fff;
-  background-color: #ec2e3c;
+  background-color: #00175b;
   padding: 6px 0 7px;
   max-width: 182px;
   text-align: center;
   text-transform: capitalize;
   box-shadow: 0 26px 6px #00000029;
-  border: 2px solid #ec2e3c;
+  border: 2px solid #00175b;
 }
 
 .hl-link:hover {
@@ -2363,7 +2363,7 @@ input[type="radio"] {
 }
 
 .logotext {
-  color: #ec2e3c;
+  color: #00175b;
   font-size: 0.9em;
   letter-spacing: -0.5px;
   font-family: Nunito;
@@ -2438,16 +2438,16 @@ iframe {
 }
 
 .get-in-touch {
-  color: #ec2e3c;
+  color: #00175b;
   background: #fff;
   width: 140px;
   border-radius: 0;
   font-weight: 700;
-  border: 1px solid #ec2e3c;
+  border: 1px solid #00175b;
 }
 
 .get-in-touch:hover {
-  background-color: #ec2e3c;
+  background-color: #00175b;
   color: #fff;
 }
 
@@ -2872,8 +2872,8 @@ iframe {
 
 .blog-link span {
   font-size: 1em;
-  color: #ec2e3c;
-  border: 2px solid #ec2e3c;
+  color: #00175b;
+  border: 2px solid #00175b;
   padding: 4px 30px;
   text-align: center;
   text-transform: capitalize;
@@ -2907,7 +2907,7 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border-bottom: 1px solid #ec2e3c;
+  border-bottom: 1px solid #00175b;
 }
 
 .city-box:hover .city-box-line {
@@ -3031,9 +3031,8 @@ iframe {
 
 .product-plug-img img {
   width: 100%;
-      border-radius: 25px 25px 0 0;
+  border-radius: 25px 25px 0 0;
 }
-
 
 .product-plug-desc {
   background-color: #fff;
@@ -3045,7 +3044,7 @@ iframe {
 
 .product-plug-desc a {
   font-size: 20px;
-      font-weight: 700;
+  font-weight: 700;
 }
 
 .product-plug-desc p {
@@ -3078,7 +3077,7 @@ iframe {
   margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
-  border-top: 5px solid #ec2e3c;
+  border-top: 5px solid #00175b;
 }
 
 .products-header {
@@ -3088,7 +3087,7 @@ iframe {
 }
 
 .askButton {
-  background: #ec2e3c;
+  background: #00175b;
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
@@ -3114,7 +3113,7 @@ iframe {
   color: #ffffff;
   padding: 60px 0 0;
   font-family: "Nunito", sans-serif;
-  border-top: 5px solid #ec2e3c;
+  border-top: 5px solid #00175b;
   margin-top: 0;
 }
 
@@ -3125,7 +3124,7 @@ iframe {
 }
 
 .premium-footer .footer-heading {
-  color: #ec2e3c;
+  color: #00175b;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 25px;
@@ -3179,7 +3178,7 @@ iframe {
 }
 
 .premium-footer .footer-social a:hover {
-  background-color: #ec2e3c;
+  background-color: #00175b;
   transform: translateY(-3px);
 }
 
@@ -3209,7 +3208,7 @@ iframe {
 }
 
 .premium-footer .footer-links a:hover {
-  color: #ec2e3c;
+  color: #00175b;
   padding-left: 5px;
 }
 
@@ -3234,7 +3233,7 @@ iframe {
 }
 
 .premium-footer .footer-contact-list a:hover {
-  color: #ec2e3c;
+  color: #00175b;
 }
 
 .premium-footer .footer-contact-list strong {
@@ -3249,8 +3248,8 @@ iframe {
 }
 
 .premium-footer .btn-newsletter {
-  background-color: #ec2e3c;
-  border-color: #ec2e3c;
+  background-color: #00175b;
+  border-color: #00175b;
   color: #ffffff;
   font-weight: 700;
   border-radius: 25px;
@@ -3283,11 +3282,11 @@ iframe {
   margin: 0;
 }
 
-.view-more-btn{
-    font-weight: 700;
-    background-color: #006fce;
-    padding: 6px 24px;
-    border: 2px solid #006fce;
-    border-radius: 20px;
-    color: #fff !important;
+.view-more-btn {
+  font-weight: 700;
+  background-color: #006fce;
+  padding: 6px 24px;
+  border: 2px solid #006fce;
+  border-radius: 20px;
+  color: #fff !important;
 }
