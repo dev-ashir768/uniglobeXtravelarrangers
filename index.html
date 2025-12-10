@@ -1,638 +1,619 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="format-detection" content="telephone=no" />
     <title>Home - Travel Arrangers</title>
-    <meta name="description" content="Index" />
+    <meta name="description" content="Your journey begins with us. Experience the world with customized travel solutions." />
     <meta property="og:site_name" content="uniglobecarefreetravel.com" />
-    <meta property="og:title" content="LeisureIndex - Travel Arrangers" />
-    <meta property="og:description" content="Index" />
+    <meta property="og:title" content="Travel Arrangers - Travel International" />
+    <meta property="og:description" content="Your journey begins with us" />
     <link rel="icon" href="/images/favicon.png" />
-    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
-    <link href="/css/owl.carousel.css" rel="stylesheet" type="text/css" />
-    <link href="css/icomoon/styles.css" rel="stylesheet" type="text/css" />
-    <link href="/css/style-leisure.css" rel="stylesheet" type="text/css" />
-    <link href="/css/responsive-leisure.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700,800|Roboto:300,400,700&display=swap" rel="stylesheet" />
-    <script src="/js/jquery.min.js"></script>
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link href="/css/modern-style.css" rel="stylesheet" type="text/css" />
+</head>
 
-  <body class="parent_home index">
-    <div class="wrapper">
-      <div class="side_bar"></div>
-      <div class="overlay"></div>
-      
-      <!-- HEADER SECTION - Improved Structure -->
-      <header>
-        <div style="background-color: #006fce">
-          <div class="container">
-            <div class="row">
-              <div class="header_top">
-                <div class="header_top_right">
-                  <ul></ul>
-                </div>
-                <div class="clear"></div>
-              </div>
+<body>
+    <!-- Header Section -->
+    <header class="modern-header">
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo-section">
+                <a href="/" class="logo-link">
+                    <img src="/images/travel-arrangers-logo.jpeg" alt="Travel Arrangers" class="logo-img" />
+                    <div class="logo-text-wrapper">
+                        <img src="/images/logo_dark.svg" alt="Carefree Travel Group" class="logo-brand" />
+                        <span class="logo-tagline">Travel International</span>
+                    </div>
+                </a>
             </div>
-          </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+                <ul class="nav-menu">
+                    <li><a href="/before-you-go">Before You Go</a></li>
+                    <li><a href="/vacation-booking-tool">Book Here</a></li>
+                    <li><a href="/join-our-newsletter">Monthly Promotions</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="/#">About Us <span class="arrow">▾</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about-uti">About Uniglobe</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="/#">Corporate <span class="arrow">▾</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/corporate-2025">Corporate Solutions</a></li>
+                            <li><a href="/meetings-and-incentives">Meetings and Incentives</a></li>
+                            <li><a href="/24-hour-support">24-Hour Support</a></li>
+                            <li><a href="https://www.viator.com/en-CA/?pid=P00166815&uid=U00484385&mcid=58086&currency=CAD" target="_blank">Local Activities/Transfer</a></li>
+                            <li><a href="/newsletters">Newsletter</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="/#">Leisure Travel <span class="arrow">▾</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/vacation-packages">Vacation Packages</a></li>
+                            <li><a href="/cruises">Cruises</a></li>
+                            <li><a href="/luxury-travel">Luxury Travel</a></li>
+                            <li><a href="/escorted-and-guided-vacations">Escorted and Guided tours</a></li>
+                            <li><a href="/affordable-long-term-stays">Affordable Long Term Stay</a></li>
+                            <li><a href="/adventure-travel">Adventure Travel</a></li>
+                            <li><a href="/group-travel">Group Travel</a></li>
+                            <li><a href="/canadian-tours-and-trips">Canadian Tours and Trips</a></li>
+                            <li><a href="/vacation-magazine">Vacation Brochure</a></li>
+                            <li><a href="/destinations">Destination Guide</a></li>
+                            <li><a href="https://www.viator.com/en-CA/?pid=P00166815&uid=U00484385&mcid=58086&currency=CAD" target="_blank">Local Activities/Transfer</a></li>
+                            <li><a href="/gift-card">Gift Card</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="/our-service">Our Service <span class="arrow">▾</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/before-you-go">Travel Tools</a></li>
+                            <li><a href="/join-our-newsletter">Newsletter Subscription</a></li>
+                            <li><a href="https://uniglobecareers.com/" target="_blank">Careers</a></li>
+                            <li><a href="/contact">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <a href="/contact" class="contact-btn">Contact Us</a>
+            </nav>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <ul class="mobile-menu">
+                <li><a href="/before-you-go">Before You Go</a></li>
+                <li><a href="/vacation-booking-tool">Book Here</a></li>
+                <li><a href="/join-our-newsletter">Monthly Promotions</a></li>
+                
+                <li class="mobile-dropdown">
+                    <span class="mobile-dropdown-toggle">About Us <span class="arrow">▾</span></span>
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="/about-uti">About Uniglobe</a></li>
+                    </ul>
+                </li>
+                
+                <li class="mobile-dropdown">
+                    <span class="mobile-dropdown-toggle">Corporate <span class="arrow">▾</span></span>
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="/corporate-2025">Corporate Solutions</a></li>
+                        <li><a href="/meetings-and-incentives">Meetings and Incentives</a></li>
+                        <li><a href="/24-hour-support">24-Hour Support</a></li>
+                        <li><a href="https://www.viator.com/en-CA/?pid=P00166815&uid=U00484385&mcid=58086&currency=CAD" target="_blank">Local Activities/Transfer</a></li>
+                        <li><a href="/newsletters">Newsletter</a></li>
+                    </ul>
+                </li>
+                
+                <li class="mobile-dropdown">
+                    <span class="mobile-dropdown-toggle">Leisure Travel <span class="arrow">▾</span></span>
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="/vacation-packages">Vacation Packages</a></li>
+                        <li><a href="/cruises">Cruises</a></li>
+                        <li><a href="/luxury-travel">Luxury Travel</a></li>
+                        <li><a href="/escorted-and-guided-vacations">Escorted and Guided tours</a></li>
+                        <li><a href="/affordable-long-term-stays">Affordable Long Term Stay</a></li>
+                        <li><a href="/adventure-travel">Adventure Travel</a></li>
+                        <li><a href="/group-travel">Group Travel</a></li>
+                        <li><a href="/canadian-tours-and-trips">Canadian Tours and Trips</a></li>
+                        <li><a href="/vacation-magazine">Vacation Brochure</a></li>
+                        <li><a href="/destinations">Destination Guide</a></li>
+                        <li><a href="https://www.viator.com/en-CA/?pid=P00166815&uid=U00484385&mcid=58086&currency=CAD" target="_blank">Local Activities/Transfer</a></li>
+                        <li><a href="/gift-card">Gift Card</a></li>
+                    </ul>
+                </li>
+                
+                <li class="mobile-dropdown">
+                    <span class="mobile-dropdown-toggle">Our Service <span class="arrow">▾</span></span>
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="/before-you-go">Travel Tools</a></li>
+                        <li><a href="/join-our-newsletter">Newsletter Subscription</a></li>
+                        <li><a href="https://uniglobecareers.com/" target="_blank">Careers</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="/contact" class="mobile-contact-btn">Contact Us</a></li>
+            </ul>
+            
+            <!-- Mobile Social Links -->
+            <div class="mobile-social">
+                <a href="https://www.facebook.com/UniglobeYXE/" target="_blank"><img src="/images/facebook.svg" alt="Facebook" /></a>
+                <a href="https://twitter.com/UniglobeYXE" target="_blank"><img src="/images/twitter.svg" alt="Twitter" /></a>
+                <a href="https://www.linkedin.com/company/uniglobe-carefree-travel/" target="_blank"><img src="/images/linkedin.svg" alt="LinkedIn" /></a>
+                <a href="https://www.instagram.com/uniglobecarefree/" target="_blank"><img src="/images/instagram.svg" alt="Instagram" /></a>
+                <a href="https://www.youtube.com/user/uniglobecarefree" target="_blank"><img src="/images/youtube.svg" alt="YouTube" /></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Slider Section -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <!-- Slide 1 -->
+            <div class="slide active" style="background-image: url('https://uniglobecarefreetravel.com/content/SCHOOL-BREAK-CRUISE-20250714102017.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <div class="slide-box">
+                        <h1>Family Fun on Allure of The Seas</h1>
+                        <div class="slide-logo">
+                            <img src="/content/61314c226d345.svg" alt="Royal Caribbean International" />
+                        </div>
+                        <a href="/leisure/family-fun-on-allure-of-the-seas-" class="slide-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="slide" style="background-image: url('https://uniglobecarefreetravel.com/content/ACV_Journey_Through_ancient_Cultures-20250904134451.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <div class="slide-box">
+                        <h1>A Journey Through Ancient Cultures</h1>
+                        <div class="slide-logo">
+                            <img src="/content/acv_En-20211215062243.jpg" alt="Air Canada Vacations" />
+                        </div>
+                        <a href="/leisure/a-journey-through-ancient-cultures" class="slide-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="slide" style="background-image: url('https://uniglobecarefreetravel.com/content/Celebrity-Fall-Sale-2025-20251007143517.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <div class="slide-box">
+                        <h1>Huge Savings with Celebrity Cruise Line</h1>
+                        <div class="slide-logo">
+                            <img src="/content/celebrity-20231106145256.jpg" alt="Celebrity Cruise Lines" />
+                        </div>
+                        <a href="/leisure/huge-savings-with-celebrity-cruise-line-" class="slide-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </div>
         
-        <div style="background-color: #fff">
-          <div class="container">
-            <div class="row">
-              <div class="main_header">
-                <!-- Logo Section -->
-                <a href="/" class="logo">
-                  <div class="logowrapper">
-                    <img src="/images/travel-arrangers-logo.jpeg" alt="Travel agency in Mississauga" class="h-52 mr-10" />
-                  </div>
-                  <div class="logowrapper">
-                    <img src="/images/logo_dark.svg" alt="Carefree Travel Group" />
-                    <div class="logotext">Travel International</div>
-                  </div>
+        <!-- Slider Navigation -->
+        <button class="slider-prev" onclick="changeSlide(-1)">‹</button>
+        <button class="slider-next" onclick="changeSlide(1)">›</button>
+        
+        <!-- Slider Dots -->
+        <div class="slider-dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        
+        <!-- Travel Well Badge -->
+        <img src="/images/travel_well.svg" alt="Travel Well" class="travel-badge" />
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="quick-links">
+        <div class="container">
+            <div class="quick-grid">
+                <a href="/leisure-travel" class="quick-card">
+                    <div class="quick-img" style="background-image: url('https://uniglobecarefreetravel.com/content/beach-with-boat_location-20200207122119.jpg');"></div>
+                    <div class="quick-overlay"></div>
+                    <h3>Leisure Offers</h3>
                 </a>
                 
-                <!-- Mobile Menu Icon -->
-                <div class="nav-icon">
-                  <img src="/images/baseline-menu-24px-blue.svg" alt="Menu" style="height: 32px" />
-                </div>
+                <a href="/destinations" class="quick-card">
+                    <div class="quick-img" style="background-image: url('https://uniglobecarefreetravel.com/content/Europe-quicklink-20200221170324.jpg');"></div>
+                    <div class="quick-overlay"></div>
+                    <h3>Destination Guide</h3>
+                </a>
                 
-                <!-- Navigation Menu -->
-                <nav>
-                  <ul>
-                    <li class="underline">
-                      <a href="/before-you-go"><div>Before You Go</div></a>
-                    </li>
-                    <li class="underline">
-                      <a href="/vacation-booking-tool"><div>Book here</div></a>
-                    </li>
-                    <li class="underline">
-                      <a href="/join-our-newsletter"><div>Monthly Promotions</div></a>
-                    </li>
-                    
-                    <!-- About Us Dropdown -->
-                    <li class="header-link">
-                      <a href="/#">
-                        <div>About Us<img src="/images/expand_more-24px.svg" alt="Expand" class="expand-image" style="display: none" /></div>
-                      </a>
-                      <ul>
-                        <li><a href="/about-uti"><div>About Uniglobe</div></a></li>
-                      </ul>
-                    </li>
-                    
-                    <!-- Corporate Dropdown -->
-                    <li class="header-link">
-                      <a href="/#">
-                        <div>Corporate<img src="/images/expand_more-24px.svg" alt="Expand" class="expand-image" style="display: none" /></div>
-                      </a>
-                      <ul>
-                        <li><a href="/corporate-2025"><div>Corporate Solutions</div></a></li>
-                        <li><a href="/meetings-and-incentives"><div>Meetings and Incentives</div></a></li>
-                        <li><a href="/24-hour-support"><div>24-Hour Support</div></a></li>
-                        <li><a href="https://www.viator.com/en-CA/?pid=P00166815&uid=U00484385&mcid=58086&currency=CAD" target="_Blank"><div>Local Activities/Transfer</div></a></li>
-                        <li><a href="/newsletters"><div>Newsletter</div></a></li>
-                      </ul>
-                    </li>
-                    
-                    <!-- Leisure Travel Dropdown -->
-                    <li class="header-link">
-                      <a href="/#">
-                        <div>Leisure Travel<img src="/images/expand_more-24px.svg" alt="Expand" class="expand-image" style="display: none" /></div>
-                      </a>
-                      <ul>
-                        <li><a href="/vacation-packages"><div>Vacation Packages</div></a></li>
-                        <li><a href="/cruises"><div>Cruises</div></a></li>
-                        <li><a href="/luxury-travel"><div>Luxury Travel</div></a></li>
-                        <li><a href="/escorted-and-guided-vacations"><div>Escorted and Guided tours</div></a></li>
-                        <li><a href="/affordable-long-term-stays"><div>Affordable Long Term Stay</div></a></li>
-                        <li><a href="/adventure-travel"><div>Adventure Travel</div></a></li>
-                        <li><a href="/group-travel"><div>Group Travel</div></a></li>
-                        <li><a href="/canadian-tours-and-trips"><div>Canadian Tours and Trips</div></a></li>
-                        <li><a href="/vacation-magazine"><div>Vacation Brochure</div></a></li>
-                        <li><a href="/destinations"><div>Destination Guide</div></a></li>
-                        <li><a href="https://www.viator.com/en-CA/?pid=P00166815&uid=U00484385&mcid=58086&currency=CAD" target="_Blank"><div>Local Activities/Transfer</div></a></li>
-                        <li><a href="/gift-card"><div>Gift Card</div></a></li>
-                      </ul>
-                    </li>
-                    
-                    <!-- Our Service Dropdown -->
-                    <li class="header-link">
-                      <a href="/our-service">
-                        <div>Our Service<img src="/images/expand_more-24px.svg" alt="Expand" class="expand-image" style="display: none" /></div>
-                      </a>
-                      <ul>
-                        <li><a href="/before-you-go"><div>Travel Tools</div></a></li>
-                        <li><a href="/join-our-newsletter"><div>Newsletter Subscription</div></a></li>
-                        <li><a href="https://uniglobecareers.com/" target="_Blank"><div>Careers</div></a></li>
-                        <li><a href="/contact"><div>Contact Us</div></a></li>
-                      </ul>
-                    </li>
-                    
-                    <!-- Contact Button -->
-                    <li class="header-link contact-button-container">
-                      <a href="/contact">
-                        <div class="contact-button">CONTACT US</div>
-                      </a>
-                    </li>
-                  </ul>
-                  
-                  <!-- Mobile Social Links -->
-                  <div class="mobile-contact">
-                    <div class="footer_social">
-                      <ul>
-                        <li><a href="https://www.facebook.com/UniglobeYXE/" target="_Blank"><figure><img src="/images/facebook.svg" alt="facebook" /></figure></a></li>
-                        <li><a href="https://twitter.com/http://www.twitter.com/UniglobeYXE" target="_Blank"><figure><img src="/images/twitter.svg" alt="twitter" /></figure></a></li>
-                        <li><a href="https://www.linkedin.com/company/uniglobe-carefree-travel/" target="_Blank"><figure><img src="/images/linkedin.svg" alt="linkedin" /></figure></a></li>
-                        <li><a href="https://www.instagram.com/uniglobecarefree/" target="_Blank"><figure><img src="/images/instagram.svg" alt="instagram" /></figure></a></li>
-                        <li><a href="https://www.youtube.com/user/uniglobecarefree" target="_Blank"><figure><img src="/images/youtube.svg" alt="youtube" /></figure></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="clear"></div>
-                </nav>
-                <div class="clear"></div>
-              </div>
+                <a href="/lounge-access" class="quick-card">
+                    <div class="quick-img" style="background-image: url('https://uniglobecarefreetravel.com/content/woman-traveller-sipping-coffee-waiting_trips-20200207122214.jpg');"></div>
+                    <div class="quick-overlay"></div>
+                    <h3>Lounge Access</h3>
+                </a>
+                
+                <a href="/vacation-magazine" class="quick-card">
+                    <div class="quick-img" style="background-image: url('https://uniglobecarefreetravel.com/content/woman-airplane-windowseat-with-tablet_transportation-20200207122203.jpg');"></div>
+                    <div class="quick-overlay"></div>
+                    <h3>Vacation Magazine</h3>
+                </a>
             </div>
-          </div>
         </div>
-      </header>
+    </section>
 
-      <!-- BANNER/HERO SECTION - Improved Structure -->
-      <div class="banner col-xs-12">
-        <div class="slider">
-          <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <!-- Carousel Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel" data-slide-to="1"></li>
-              <li data-target="#carousel" data-slide-to="2"></li>
-            </ol>
+    <!-- Travel Styles Section -->
+    <section class="travel-styles">
+        <div class="container">
+            <div class="section-header">
+                <h2>Select your Travel Style</h2>
+                <div class="section-divider"></div>
+            </div>
             
-            <!-- Carousel Items -->
-            <div class="carousel-inner" role="listbox">
-              <!-- Slide 1 -->
-              <div class="item active" style="background-image: url(https://uniglobecarefreetravel.com/content/SCHOOL-BREAK-CRUISE-20250714102017.jpg);">
-                <div class="slider_overlay"></div>
-                <div class="ban_con">
-                  <div class="ban_con_in">
-                    <div class="travel">
-                      <div class="cta_box">
-                        <div class="book">
-                          <h1>Family Fun on Allure of The Seas</h1>
-                          <p>
-                            <img src="/content/61314c226d345.svg" alt="royal-caribbean-international" style="max-height: 60px; max-width: 175px; background: white; padding: 8px;" />
-                          </p>
-                          <a href="/leisure/family-fun-on-allure-of-the-seas-">Learn More</a>
+            <div class="travel-grid">
+                <a href="/vacation-packages" class="travel-card">
+                    <div class="travel-img" style="background-image: url('/content/1567798165_original-20210716121655.jpg');"></div>
+                    <div class="travel-overlay"></div>
+                    <h3>Vacation Packages</h3>
+                </a>
+                
+                <a href="/cruises" class="travel-card">
+                    <div class="travel-img" style="background-image: url('/content/1567798840_original-20210709125418.jpg');"></div>
+                    <div class="travel-overlay"></div>
+                    <h3>Cruises</h3>
+                </a>
+                
+                <a href="/luxury-travel" class="travel-card">
+                    <div class="travel-img" style="background-image: url('/content/1567798858_original-20210709095312.jpg');"></div>
+                    <div class="travel-overlay"></div>
+                    <h3>Luxury Travel</h3>
+                </a>
+                
+                <a href="/escorted-and-guided-vacations" class="travel-card">
+                    <div class="travel-img" style="background-image: url('/content/1567798760_original-20210709132845.jpg');"></div>
+                    <div class="travel-overlay"></div>
+                    <h3>Escorted And Guided Vacations</h3>
+                </a>
+                
+                <a href="/affordable-long-term-stays" class="travel-card">
+                    <div class="travel-img" style="background-image: url('/content/1567798379_original-20210709131558.jpg');"></div>
+                    <div class="travel-overlay"></div>
+                    <h3>Affordable Long Term Stays</h3>
+                </a>
+                
+                <a href="/adventure-travel" class="travel-card">
+                    <div class="travel-img" style="background-image: url('/content/1567798444_original-20210709124046.jpg');"></div>
+                    <div class="travel-overlay"></div>
+                    <h3>Adventure Travel</h3>
+                </a>
+                
+                <a href="/group-travel" class="travel-card">
+                    <div class="travel-img" style="background-image: url('/content/1614708522_original-20210716120412.jpg');"></div>
+                    <div class="travel-overlay"></div>
+                    <h3>Group Travel</h3>
+                </a>
+                
+                <a href="/canadian-tours-and-trips" class="travel-card">
+                    <div class="travel-img" style="background-image: url('/content/1594752983_original-20210709123933.jpg');"></div>
+                    <div class="travel-overlay"></div>
+                    <h3>Canadian Tours And Trips</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Offers Section -->
+    <section class="featured-offers">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Offers</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <!-- Offers Carousel -->
+            <div class="offers-carousel-wrapper">
+                <div class="offers-carousel" id="offersCarousel">
+                    <!-- Offer 1 -->
+                    <div class="offer-card">
+                        <a href="/leisure/garden-isle-getaway">
+                            <div class="offer-img">
+                                <img src="/content/Kauai_WSV-20251016132000_blog.jpg" alt="Garden Isle Getaway" />
+                            </div>
+                        </a>
+                        <div class="offer-content">
+                            <h3><a href="/leisure/garden-isle-getaway">Garden Isle Getaway</a></h3>
+                            <p>Aston Islander on the Beach, Kauai</p>
+                            <a href="/leisure/garden-isle-getaway" class="offer-link">Learn More →</a>
                         </div>
-                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              
-              <!-- Slide 2 -->
-              <div class="item" style="background-image: url(https://uniglobecarefreetravel.com/content/ACV_Journey_Through_ancient_Cultures-20250904134451.jpg);">
-                <div class="slider_overlay"></div>
-                <div class="ban_con">
-                  <div class="ban_con_in">
-                    <div class="travel">
-                      <div class="cta_box">
-                        <div class="book">
-                          <h1>A Journey Through Ancient Cultures</h1>
-                          <p>
-                            <img src="/content/acv_En-20211215062243.jpg" alt="air-canada-vacations" style="max-height: 60px; max-width: 175px; background: white; padding: 8px;" />
-                          </p>
-                          <a href="/leisure/a-journey-through-ancient-cultures">Learn More</a>
+                    
+                    <!-- Offer 2 -->
+                    <div class="offer-card">
+                        <a href="/leisure/saskatchewan-rush-fan-trip-to-las-vegas">
+                            <div class="offer-img">
+                                <img src="/content/From-Saskatoon-to-the-Strip-n-Rush-Fans-Take-Over-Vegas-1-20251016130000_blog.jpg" alt="Saskatchewan Rush Fan Trip" />
+                            </div>
+                        </a>
+                        <div class="offer-content">
+                            <h3><a href="/leisure/saskatchewan-rush-fan-trip-to-las-vegas">Saskatchewan Rush Fan Trip to Las Vegas</a></h3>
+                            <p>3 Night Rush Fan Weekend Hosted by Gregger</p>
+                            <a href="/leisure/saskatchewan-rush-fan-trip-to-las-vegas" class="offer-link">Learn More →</a>
                         </div>
-                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              
-              <!-- Slide 3 -->
-              <div class="item" style="background-image: url(https://uniglobecarefreetravel.com/content/Celebrity-Fall-Sale-2025-20251007143517.jpg);">
-                <div class="slider_overlay"></div>
-                <div class="ban_con">
-                  <div class="ban_con_in">
-                    <div class="travel">
-                      <div class="cta_box">
-                        <div class="book">
-                          <h1>Huge Savings with Celebrity Cruise Line</h1>
-                          <p>
-                            <img src="/content/celebrity-20231106145256.jpg" alt="celebrity-cruise-lines" style="max-height: 60px; max-width: 175px; background: white; padding: 8px;" />
-                          </p>
-                          <a href="/leisure/huge-savings-with-celebrity-cruise-line-">Learn More</a>
+                    
+                    <!-- Offer 3 -->
+                    <div class="offer-card">
+                        <a href="/leisure/bonjour-bordeaux-chateaux-wineries-and-charming-villages">
+                            <div class="offer-img">
+                                <img src="/content/Avalon-6-20251014133316_blog.jpg" alt="Bonjour Bordeaux" />
+                            </div>
+                        </a>
+                        <div class="offer-content">
+                            <h3><a href="/leisure/bonjour-bordeaux-chateaux-wineries-and-charming-villages">Bonjour Bordeaux: Chateaux, Wineries & Charming Villages</a></h3>
+                            <p>8 Day River Cruise Bordeaux to Bordeaux</p>
+                            <a href="/leisure/bonjour-bordeaux-chateaux-wineries-and-charming-villages" class="offer-link">Learn More →</a>
                         </div>
-                      </div>
                     </div>
-                  </div>
+                    
+                    <!-- Offer 4 -->
+                    <div class="offer-card">
+                        <a href="/leisure/mexico-in-march-equals-the-perfect-escape-">
+                            <div class="offer-img">
+                                <img src="/content/PALLADIUM_Vallarta_WSV-20251014145743_blog.jpg" alt="Mexico in March" />
+                            </div>
+                        </a>
+                        <div class="offer-content">
+                            <h3><a href="/leisure/mexico-in-march-equals-the-perfect-escape-">Mexico in March Equals The Perfect Escape</a></h3>
+                            <p>Grand Palladium Vallarta Resort and Spa</p>
+                            <a href="/leisure/mexico-in-march-equals-the-perfect-escape-" class="offer-link">Learn More →</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Offer 5 -->
+                    <div class="offer-card">
+                        <a href="/leisure/dreams-estrella-del-mar-mazatlán-golf-and-spa-resort">
+                            <div class="offer-img">
+                                <img src="/content/DREAMS_Estrella_MZT_WSV-20251008101333_blog.jpg" alt="Dreams Estrella" />
+                            </div>
+                        </a>
+                        <div class="offer-content">
+                            <h3><a href="/leisure/dreams-estrella-del-mar-mazatlán-golf-and-spa-resort">Dreams Estrella del Mar Mazatlán Golf & Spa Resort</a></h3>
+                            <p>7 Night All-inclusive Stay December 2025</p>
+                            <a href="/leisure/dreams-estrella-del-mar-mazatlán-golf-and-spa-resort" class="offer-link">Learn More →</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Offer 6 -->
+                    <div class="offer-card">
+                        <a href="/leisure/huge-savings-with-celebrity-cruise-line-">
+                            <div class="offer-img">
+                                <img src="/content/CEL_Fall_Sale_2025-20251007144210_blog.jpg" alt="Celebrity Cruise Sale" />
+                            </div>
+                        </a>
+                        <div class="offer-content">
+                            <h3><a href="/leisure/huge-savings-with-celebrity-cruise-line-">Huge Savings with Celebrity Cruise Line</a></h3>
+                            <p>Nothing Comes Close To Celebrity's Fall Sale</p>
+                            <a href="/leisure/huge-savings-with-celebrity-cruise-line-" class="offer-link">Learn More →</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                
+                <!-- Carousel Navigation -->
+                <button class="offers-prev" onclick="moveOffersCarousel(-1)">‹</button>
+                <button class="offers-next" onclick="moveOffersCarousel(1)">›</button>
             </div>
-          </div>
-          
-          <!-- Travel Well Badge -->
-          <img src="/images/travel_well.svg" alt="Travel Well" class="travel-well" style="padding: 12px" />
+            
+            <!-- View More Button -->
+            <div class="view-more">
+                <a href="/leisures" class="view-more-btn">View All Offers →</a>
+            </div>
         </div>
-      </div>
+    </section>
 
-      <!-- MAIN CONTENT SECTION -->
-      <div class="maincontent col-xs-12">
-        
-        <!-- QUICK LINKS SECTION - Improved Grid -->
-        <div class="content col-xs-12 quicklinks_content">
-          <div class="container" style="position: relative; top: 40px">
-            <div class="row">
-              <!-- Quick Link 1 -->
-              <div class="col-xs-6" style="padding-left: 5px; padding-right: 5px">
-                <div class="quicklinks" style="background: url(https://uniglobecarefreetravel.com/content/beach-with-boat_location-20200207122119.jpg) center center / 100% no-repeat; height: 286px; margin-right: 1px;">
-                  <a href="/leisure-travel">
-                    <div class="quicklinks_overlay"></div>
-                    <span>
-                      Leisure Offers
-                      <div class="quicklinks-box-line"></div>
-                    </span>
-                  </a>
+    <!-- Footer Section -->
+    <footer class="modern-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-col">
+                    <a href="/" class="footer-logo">
+                        <img src="/images/travel-arrangers-logo.jpeg" alt="Travel Arrangers" class="footer-logo-img" />
+                        <div class="footer-brand">
+                            <img src="/images/logo.svg" alt="Carefree Travel Group" />
+                            <span>Travel International</span>
+                        </div>
+                    </a>
+                    <p class="footer-tagline">Your journey begins with us. Experience the world with customized travel solutions.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/UniglobeYXE/" target="_blank"><img src="/images/facebook.svg" alt="Facebook" /></a>
+                        <a href="https://twitter.com/UniglobeYXE" target="_blank"><img src="/images/twitter.svg" alt="Twitter" /></a>
+                        <a href="https://www.linkedin.com/company/uniglobe-carefree-travel/" target="_blank"><img src="/images/linkedin.svg" alt="LinkedIn" /></a>
+                        <a href="https://www.instagram.com/uniglobecarefree/" target="_blank"><img src="/images/instagram.svg" alt="Instagram" /></a>
+                        <a href="https://www.youtube.com/user/uniglobecarefree" target="_blank"><img src="/images/youtube.svg" alt="YouTube" /></a>
+                    </div>
                 </div>
-              </div>
-              
-              <!-- Quick Link 2 -->
-              <div class="col-xs-6" style="padding-left: 5px; padding-right: 5px">
-                <div class="quicklinks" style="background: url(https://uniglobecarefreetravel.com/content/Europe-quicklink-20200221170324.jpg) center center / 100% no-repeat; height: 286px; margin-right: 1px;">
-                  <a href="/destinations">
-                    <div class="quicklinks_overlay"></div>
-                    <span>
-                      Destination Guide
-                      <div class="quicklinks-box-line"></div>
-                    </span>
-                  </a>
+
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/about-uti">About Uniglobe</a></li>
+                        <li><a href="/corporate-2025">Corporate Solutions</a></li>
+                        <li><a href="/leisure-travel">Leisure Travel</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                    </ul>
                 </div>
-              </div>
-              
-              <!-- Quick Link 3 -->
-              <div class="col-xs-6" style="padding-left: 5px; padding-right: 5px">
-                <div class="quicklinks" style="background: url(https://uniglobecarefreetravel.com/content/woman-traveller-sipping-coffee-waiting_trips-20200207122214.jpg) center center / 100% no-repeat; height: 286px; margin-right: 1px;">
-                  <a href="/lounge-access">
-                    <div class="quicklinks_overlay"></div>
-                    <span>
-                      Lounge Access
-                      <div class="quicklinks-box-line"></div>
-                    </span>
-                  </a>
+
+                <!-- Contact Info -->
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <strong>Saskatoon Office</strong><br />
+                            Unit 40 - 304 Stonebridge Blvd,<br />
+                            Saskatoon, SK S7T 0J1
+                        </li>
+                        <li><a href="tel:13069343400">P: (306) 934-3400</a></li>
+                        <li><a href="mailto:info@uniglobecarefree.ca">E: info@uniglobecarefree.ca</a></li>
+                    </ul>
                 </div>
-              </div>
-              
-              <!-- Quick Link 4 -->
-              <div class="col-xs-6" style="padding-left: 5px; padding-right: 5px">
-                <div class="quicklinks" style="background: url(https://uniglobecarefreetravel.com/content/woman-airplane-windowseat-with-tablet_transportation-20200207122203.jpg) center center / 100% no-repeat; height: 286px; margin-right: 1px;">
-                  <a href="/vacation-magazine">
-                    <div class="quicklinks_overlay"></div>
-                    <span>
-                      Vacation Magazine
-                      <div class="quicklinks-box-line"></div>
-                    </span>
-                  </a>
+
+                <!-- Newsletter -->
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for the latest travel deals and updates.</p>
+                    <a href="/join-our-newsletter" class="newsletter-btn">Join Now</a>
                 </div>
-              </div>
             </div>
-          </div>
-          
-          <!-- Decorative Motif -->
-          <div class="motif-box">
-            <div class="motif-box-bg" style="height: 640px; top: -575px"></div>
-          </div>
-        </div>
 
-        <!-- TRAVEL STYLES SECTION - Improved Grid -->
-        <div class="content col-xs-12">
-          <div class="trips" style="background-color: #f1f2f2">
-            <div class="trips_container">
-              
-              <!-- Section Header -->
-              <h4 class="product-categories-header">Select your Travel Style</h4>
-              <div class="products-divider"></div>
-              
-              <!-- Travel Categories Grid -->
-              <div class="row gallery">
-                
-                <!-- Category 1: Vacation Packages -->
-                <div class="col-xs-12 col-sm-4 city-box" style="background-image: url('/content/1567798165_original-20210716121655.jpg'); background-position: center; background-size: cover; height: 290px; padding: 0;">
-                  <a href="/vacation-packages">
-                    <div class="city-box-overlay"></div>
-                    <span class="overlay1">
-                      <span class="overlay1_in">
-                        <span class="overlay1_in_con">
-                          Vacation Packages
-                          <div class="city-box-line"></div>
-                        </span>
-                      </span>
-                    </span>
-                  </a>
-                </div>
-                
-                <!-- Category 2: Cruises -->
-                <div class="col-xs-12 col-sm-4 city-box" style="background-image: url('/content/1567798840_original-20210709125418.jpg'); background-position: center; background-size: cover; height: 290px; padding: 0;">
-                  <a href="/cruises">
-                    <div class="city-box-overlay"></div>
-                    <span class="overlay1">
-                      <span class="overlay1_in">
-                        <span class="overlay1_in_con">
-                          Cruises
-                          <div class="city-box-line"></div>
-                        </span>
-                      </span>
-                    </span>
-                  </a>
-                </div>
-                
-                <!-- Category 3: Luxury Travel -->
-                <div class="col-xs-12 col-sm-4 city-box" style="background-image: url('/content/1567798858_original-20210709095312.jpg'); background-position: center; background-size: cover; height: 290px; padding: 0;">
-                  <a href="/luxury-travel">
-                    <div class="city-box-overlay"></div>
-                    <span class="overlay1">
-                      <span class="overlay1_in">
-                        <span class="overlay1_in_con">
-                          Luxury Travel
-                          <div class="city-box-line"></div>
-                        </span>
-                      </span>
-                    </span>
-                  </a>
-                </div>
-                
-                <!-- Category 4: Escorted Vacations -->
-                <div class="col-xs-12 col-sm-4 city-box" style="background-image: url('/content/1567798760_original-20210709132845.jpg'); background-position: center; background-size: cover; height: 290px; padding: 0;">
-                  <a href="/escorted-and-guided-vacations">
-                    <div class="city-box-overlay"></div>
-                    <span class="overlay1">
-                      <span class="overlay1_in">
-                        <span class="overlay1_in_con">
-                          Escorted And Guided Vacations
-                          <div class="city-box-line"></div>
-                        </span>
-                      </span>
-                    </span>
-                  </a>
-                </div>
-                
-                <!-- Category 5: Long Term Stays -->
-                <div class="col-xs-12 col-sm-4 city-box" style="background-image: url('/content/1567798379_original-20210709131558.jpg'); background-position: center; background-size: cover; height: 290px; padding: 0;">
-                  <a href="/affordable-long-term-stays">
-                    <div class="city-box-overlay"></div>
-                    <span class="overlay1">
-                      <span class="overlay1_in">
-                        <span class="overlay1_in_con">
-                          Affordable Long Term Stays
-                          <div class="city-box-line"></div>
-                        </span>
-                      </span>
-                    </span>
-                  </a>
-                </div>
-                
-                <!-- Category 6: Adventure Travel -->
-                <div class="col-xs-12 col-sm-4 city-box" style="background-image: url('/content/1567798444_original-20210709124046.jpg'); background-position: center; background-size: cover; height: 290px; padding: 0;">
-                  <a href="/adventure-travel">
-                    <div class="city-box-overlay"></div>
-                    <span class="overlay1">
-                      <span class="overlay1_in">
-                        <span class="overlay1_in_con">
-                          Adventure Travel
-                          <div class="city-box-line"></div>
-                        </span>
-                      </span>
-                    </span>
-                  </a>
-                </div>
-                
-                <!-- Category 7: Group Travel -->
-                <div class="col-xs-12 col-sm-4 city-box" style="background-image: url('/content/1614708522_original-20210716120412.jpg'); background-position: center; background-size: cover; height: 290px; padding: 0;">
-                  <a href="/group-travel">
-                    <div class="city-box-overlay"></div>
-                    <span class="overlay1">
-                      <span class="overlay1_in">
-                        <span class="overlay1_in_con">
-                          Group Travel
-                          <div class="city-box-line"></div>
-                        </span>
-                      </span>
-                    </span>
-                  </a>
-                </div>
-                
-                <!-- Category 8: Canadian Tours -->
-                <div class="col-xs-12 col-sm-4 city-box" style="background-image: url('/content/1594752983_original-20210709123933.jpg'); background-position: center; background-size: cover; height: 290px; padding: 0;">
-                  <a href="/canadian-tours-and-trips">
-                    <div class="city-box-overlay"></div>
-                    <span class="overlay1">
-                      <span class="overlay1_in">
-                        <span class="overlay1_in_con">
-                          Canadian Tours And Trips
-                          <div class="city-box-line"></div>
-                        </span>
-                      </span>
-                    </span>
-                  </a>
-                </div>
-                
-              </div>
-
-              <!-- FEATURED OFFERS SECTION - Improved Cards -->
-              <h4 class="products-header">Featured Offers</h4>
-              <div class="products-divider"></div>
-              
-              <div class="row">
-                
-                <!-- Offer Card 1 -->
-                <div class="col-sm-4 col-xs-12">
-                  <div class="product-plug-img">
-                    <a href="/leisure/garden-isle-getaway">
-                      <img src="/content/Kauai_WSV-20251016132000_blog.jpg" alt="Garden Isle Getaway" />
-                    </a>
-                  </div>
-                  <div class="product-plug-desc">
-                    <a href="/leisure/garden-isle-getaway">Garden Isle Getaway</a>
-                    <p>Aston Islander on the Beach, Kauai</p>
-                    <a href="/leisure/garden-isle-getaway" class="product-plug-learnmore">Learn More</a>
-                  </div>
-                </div>
-                
-                <!-- Offer Card 2 -->
-                <div class="col-sm-4 col-xs-12">
-                  <div class="product-plug-img">
-                    <a href="/leisure/saskatchewan-rush-fan-trip-to-las-vegas">
-                      <img src="/content/From-Saskatoon-to-the-Strip-n-Rush-Fans-Take-Over-Vegas-1-20251016130000_blog.jpg" alt="Saskatchewan Rush Fan Trip to Las Vegas" />
-                    </a>
-                  </div>
-                  <div class="product-plug-desc">
-                    <a href="/leisure/saskatchewan-rush-fan-trip-to-las-vegas">Saskatchewan Rush Fan Trip to Las Vegas</a>
-                    <p>3 Night Rush Fan Weekend Hosted by Gregger</p>
-                    <a href="/leisure/saskatchewan-rush-fan-trip-to-las-vegas" class="product-plug-learnmore">Learn More</a>
-                  </div>
-                </div>
-                
-                <!-- Offer Card 3 -->
-                <div class="col-sm-4 col-xs-12">
-                  <div class="product-plug-img">
-                    <a href="/leisure/bonjour-bordeaux-chateaux-wineries-and-charming-villages">
-                      <img src="/content/Avalon-6-20251014133316_blog.jpg" alt="Bonjour Bordeaux: Chateaux, Wineries & Charming Villages" />
-                    </a>
-                  </div>
-                  <div class="product-plug-desc">
-                    <a href="/leisure/bonjour-bordeaux-chateaux-wineries-and-charming-villages">Bonjour Bordeaux: Chateaux, Wineries & Charming Villages</a>
-                    <p>8 Day River Cruise Bordeaux to Bordeaux</p>
-                    <a href="/leisure/bonjour-bordeaux-chateaux-wineries-and-charming-villages" class="product-plug-learnmore">Learn More</a>
-                  </div>
-                </div>
-                
-                <!-- Offer Card 4 -->
-                <div class="col-sm-4 col-xs-12">
-                  <div class="product-plug-img">
-                    <a href="/leisure/mexico-in-march-equals-the-perfect-escape-">
-                      <img src="/content/PALLADIUM_Vallarta_WSV-20251014145743_blog.jpg" alt="Mexico in March Equals The Perfect Escape " />
-                    </a>
-                  </div>
-                  <div class="product-plug-desc">
-                    <a href="/leisure/mexico-in-march-equals-the-perfect-escape-">Mexico in March Equals The Perfect Escape </a>
-                    <p>Grand Palladium Vallarta Resort and Spa</p>
-                    <a href="/leisure/mexico-in-march-equals-the-perfect-escape-" class="product-plug-learnmore">Learn More</a>
-                  </div>
-                </div>
-                
-                <!-- Offer Card 5 -->
-                <div class="col-sm-4 col-xs-12">
-                  <div class="product-plug-img">
-                    <a href="/leisure/dreams-estrella-del-mar-mazatlán-golf-and-spa-resort">
-                      <img src="/content/DREAMS_Estrella_MZT_WSV-20251008101333_blog.jpg" alt="Dreams Estrella del Mar Mazatlán Golf & Spa Resort" />
-                    </a>
-                  </div>
-                  <div class="product-plug-desc">
-                    <a href="/leisure/dreams-estrella-del-mar-mazatlán-golf-and-spa-resort">Dreams Estrella del Mar Mazatlán Golf & Spa Resort</a>
-                    <p>7 Night All-inclusive Stay December 2025</p>
-                    <a href="/leisure/dreams-estrella-del-mar-mazatlán-golf-and-spa-resort" class="product-plug-learnmore">Learn More</a>
-                  </div>
-                </div>
-                
-                <!-- Offer Card 6 -->
-                <div class="col-sm-4 col-xs-12">
-                  <div class="product-plug-img">
-                    <a href="/leisure/huge-savings-with-celebrity-cruise-line-">
-                      <img src="/content/CEL_Fall_Sale_2025-20251007144210_blog.jpg" alt="Huge Savings with Celebrity Cruise Line " />
-                    </a>
-                  </div>
-                  <div class="product-plug-desc">
-                    <a href="/leisure/huge-savings-with-celebrity-cruise-line-">Huge Savings with Celebrity Cruise Line </a>
-                    <p>Nothing Comes Close To Celebrity's Fall Sale</p>
-                    <a href="/leisure/huge-savings-with-celebrity-cruise-line-" class="product-plug-learnmore">Learn More</a>
-                  </div>
-                </div>
-                
-              </div>
-              
-              <!-- View More Link -->
-              <div style="padding-top: 19px">
-                <a href="/leisures" class="view-more-btn">View More</a>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-    <!-- wrapper ends -->
-
-    <!-- FOOTER SECTION - Premium Design -->
-    <footer class="premium-footer">
-      <div class="container">
-        <div class="row">
-          
-          <!-- Brand Column -->
-          <div class="col-md-3 col-sm-6 footer-col">
-            <a href="/" class="footer-logo-link">
-              <div class="logowrapper">
-                <img src="/images/travel-arrangers-logo.jpeg" alt="Travel agency in Mississauga" class="h-52 mr-10" />
-              </div>
-              <div class="logowrapper">
-                <img src="/images/logo.svg" alt="Carefree Travel Group" class="footer-logo-img" />
-                <div class="footer-logo-text">Travel International</div>
-              </div>
-            </a>
-            <p class="footer-tagline">Your journey begins with us. Experience the world with customized travel solutions.</p>
-            <div class="footer-social">
-              <a href="https://www.facebook.com/UniglobeYXE/" target="_Blank"><img src="/images/facebook.svg" alt="facebook" /></a>
-              <a href="https://twitter.com/UniglobeYXE" target="_Blank"><img src="/images/twitter.svg" alt="twitter" /></a>
-              <a href="https://www.linkedin.com/company/uniglobe-carefree-travel/" target="_Blank"><img src="/images/linkedin.svg" alt="linkedin" /></a>
-              <a href="https://www.instagram.com/uniglobecarefree/" target="_Blank"><img src="/images/instagram.svg" alt="instagram" /></a>
-              <a href="https://www.youtube.com/user/uniglobecarefree" target="_Blank"><img src="/images/youtube.svg" alt="youtube" /></a>
-            </div>
-          </div>
-
-          <!-- Quick Links Column -->
-          <div class="col-md-3 col-sm-6 footer-col">
-            <h5 class="footer-heading">Quick Links</h5>
-            <ul class="footer-links">
-              <li><a href="/about-uti">About Uniglobe</a></li>
-              <li><a href="/corporate-2025">Corporate Solutions</a></li>
-              <li><a href="/leisure-travel">Leisure Travel</a></li>
-              <li><a href="/contact">Contact Us</a></li>
-              <li><a href="/privacy-policy">Privacy Policy</a></li>
-            </ul>
-          </div>
-
-          <!-- Contact Column -->
-          <div class="col-md-3 col-sm-6 footer-col">
-            <h5 class="footer-heading">Contact Us</h5>
-            <ul class="footer-contact-list">
-              <li>
-                <strong>Saskatoon Office</strong><br />
-                Unit 40 - 304 Stonebridge Blvd,<br />
-                Saskatoon, SK S7T 0J1
-              </li>
-              <li><a href="tel:13069343400">P: (306) 934-3400</a></li>
-              <li><a href="mailto:info@uniglobecarefree.ca">E: info@uniglobecarefree.ca</a></li>
-            </ul>
-          </div>
-
-          <!-- Newsletter Column -->
-          <div class="col-md-3 col-sm-6 footer-col">
-            <h5 class="footer-heading">Newsletter</h5>
-            <p class="footer-newsletter-text">Subscribe for the latest travel deals and updates.</p>
-            <div class="footer-newsletter-form">
-              <a href="/join-our-newsletter" class="btn btn-primary btn-newsletter">Join Now</a>
-            </div>
-          </div>
-          
-        </div>
-
-        <!-- Copyright Row -->
-        <div class="row">
-          <div class="col-xs-12">
+            <!-- Copyright -->
             <div class="footer-bottom">
-              <p class="copyright">© 2004 - 2025 Travel Arrangers - All agencies independently owned and operated.</p>
+                <p>&copy; 2004 - 2025 Travel Arrangers - All agencies independently owned and operated.</p>
             </div>
-          </div>
         </div>
-        
-      </div>
     </footer>
 
-    <!-- JavaScript Files -->
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/bootstrap-select.min.js"></script>
-    <script src="/js/bootstrap-multiselect.min.js"></script>
-    <script src="/js/validate.min.js"></script>
-    <script src="/js/touchspin.min.js"></script>
-    <script src="/js/select2.min.js"></script>
-    <script src="/js/switch.min.js"></script>
-    <script src="/js/uniform.min.js"></script>
-    <script src="/js/form_validation.js"></script>
-    <script src="/js/owl.carousel-min.js"></script>
-    <script src="/js/main.js"></script>
-    <script src="/js/functions.js"></script>
-  </body>
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mobileNav = document.getElementById('mobileNav');
+        
+        mobileMenuToggle.addEventListener('click', function() {
+            this.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+            document.body.classList.toggle('menu-open');
+        });
+
+        // Mobile Dropdown Toggle
+        const mobileDropdownToggles = document.querySelectorAll('.mobile-dropdown-toggle');
+        mobileDropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', function() {
+                this.parentElement.classList.toggle('active');
+            });
+        });
+
+        // Hero Slider
+        let slideIndex = 1;
+        let slideTimer;
+
+        function showSlides(n) {
+            const slides = document.querySelectorAll('.slide');
+            const dots = document.querySelectorAll('.dot');
+            
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+            
+            slides[slideIndex - 1].classList.add('active');
+            dots[slideIndex - 1].classList.add('active');
+            
+            // Auto advance
+            clearTimeout(slideTimer);
+            slideTimer = setTimeout(() => {
+                slideIndex++;
+                showSlides(slideIndex);
+            }, 5000);
+        }
+
+        function changeSlide(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        // Initialize slider
+        showSlides(slideIndex);
+
+        // Offers Carousel
+        let offersPosition = 0;
+        const offersCarousel = document.getElementById('offersCarousel');
+        
+        function moveOffersCarousel(direction) {
+            const cards = document.querySelectorAll('.offer-card');
+            const cardWidth = cards[0].offsetWidth + 30; // card width + gap
+            const containerWidth = document.querySelector('.offers-carousel-wrapper').offsetWidth;
+            const visibleCards = Math.floor(containerWidth / cardWidth);
+            const maxPosition = -(cards.length - visibleCards) * cardWidth;
+            
+            offersPosition += direction * cardWidth;
+            
+            // Boundaries
+            if (offersPosition > 0) {
+                offersPosition = 0;
+            }
+            if (offersPosition < maxPosition) {
+                offersPosition = maxPosition;
+            }
+            
+            offersCarousel.style.transform = `translateX(${offersPosition}px)`;
+        }
+        
+        // Auto-scroll offers carousel
+        let offersAutoScroll = setInterval(() => {
+            const cards = document.querySelectorAll('.offer-card');
+            const cardWidth = cards[0].offsetWidth + 30;
+            const containerWidth = document.querySelector('.offers-carousel-wrapper').offsetWidth;
+            const visibleCards = Math.floor(containerWidth / cardWidth);
+            const maxPosition = -(cards.length - visibleCards) * cardWidth;
+            
+            if (offersPosition <= maxPosition) {
+                offersPosition = 0;
+            } else {
+                offersPosition -= cardWidth;
+            }
+            
+            offersCarousel.style.transform = `translateX(${offersPosition}px)`;
+        }, 4000);
+        
+        // Pause auto-scroll on hover
+        document.querySelector('.offers-carousel-wrapper').addEventListener('mouseenter', () => {
+            clearInterval(offersAutoScroll);
+        });
+        
+        document.querySelector('.offers-carousel-wrapper').addEventListener('mouseleave', () => {
+            offersAutoScroll = setInterval(() => {
+                const cards = document.querySelectorAll('.offer-card');
+                const cardWidth = cards[0].offsetWidth + 30;
+                const containerWidth = document.querySelector('.offers-carousel-wrapper').offsetWidth;
+                const visibleCards = Math.floor(containerWidth / cardWidth);
+                const maxPosition = -(cards.length - visibleCards) * cardWidth;
+                
+                if (offersPosition <= maxPosition) {
+                    offersPosition = 0;
+                } else {
+                    offersPosition -= cardWidth;
+                }
+                
+                offersCarousel.style.transform = `translateX(${offersPosition}px)`;
+            }, 4000);
+        });
+
+        // Sticky Header
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.modern-header');
+            if (window.scrollY > 100) {
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove('sticky');
+            }
+        });
+    </script>
+</body>
 </html>
